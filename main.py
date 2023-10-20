@@ -244,8 +244,8 @@ if __name__ == '__main__':
             tmpdir = str(os.getcwd())
             x = tmpdir.replace('\\', '/')
             print('Итоговая таблица используемых правил сохранена в: ' + x + '/correlations.xlsx\n')
-            FileMITRE = 'C:/Users/v.shetilin/Desktop/Matrix.html'
-            FileEXEL = 'C:/Users/v.shetilin/PycharmProjects/ParsePDF/correlations.xlsx'
+            FileMITRE = 'C:/Users/UserName/Desktop/Matrix.html'
+            FileEXEL = 'C:/Users/UserName/PycharmProjects/ParsePDF/correlations.xlsx'
             print(MapingMITRE(FileMITRE, FileEXEL))
         elif WHAT2=='2':
             DirectoryKB = input('Введите путь до распакованной kb (D:/KB for VS MP SIEM/_KB_for_VS/packages): ')
@@ -253,20 +253,20 @@ if __name__ == '__main__':
             tmpdir = str(os.getcwd())
             x = tmpdir.replace('\\', '/')
             print('Итоговая таблица используемых правил сохранена в: ' + x + '/correlations.xlsx\n')
-            FileMITRE = input('Введите путь до html файла страницы https://attack.mitre.org/ (C:/Users/v.shetilin/Desktop/Matrix.html): ')
-            FileEXEL = input('Введите путь до итоговой таблицы используемых правил (C:/Users/v.shetilin/PycharmProjects/ParsePDF/correlations.xlsx): ')
+            FileMITRE = input('Введите путь до html файла страницы https://attack.mitre.org/ (C:/Users/UserName/Desktop/Matrix.html): ')
+            FileEXEL = input('Введите путь до итоговой таблицы используемых правил (C:/Users/UserName/PycharmProjects/ParsePDF/correlations.xlsx): ')
             print(MapingMITRE(FileMITRE, FileEXEL))
         else:
             print('Да ты что?')
     elif WHAT=='2':
         WHAT2=input('1 - Я прочитал README.md, хочу все по стандарту\n2 - Не-не-не, я укажу свои пути сам\n')
         if WHAT2=='1':
-            FileMITRE = 'C:/Users/v.shetilin/Desktop/Matrix.html'
-            FileEXEL = 'C:/Users/v.shetilin/PycharmProjects/ParsePDF/correlations.xlsx'
+            FileMITRE = 'C:/Users/UserName/Desktop/Matrix.html'
+            FileEXEL = 'C:/Users/UserName/PycharmProjects/ParsePDF/correlations.xlsx'
             print(MapingMITRE(FileMITRE, FileEXEL))
         elif WHAT2=='2':
-            FileMITRE = input('Введите путь до html файла страницы https://attack.mitre.org/ (C:/Users/v.shetilin/Desktop/Matrix.html): ')
-            FileEXEL = input('Введите путь до итоговой таблицы используемых правил (C:/Users/v.shetilin/PycharmProjects/ParsePDF/correlations.xlsx): ')
+            FileMITRE = input('Введите путь до html файла страницы https://attack.mitre.org/ (C:/Users/UserName/Desktop/Matrix.html): ')
+            FileEXEL = input('Введите путь до итоговой таблицы используемых правил (C:/Users/UserName/PycharmProjects/ParsePDF/correlations.xlsx): ')
             print(MapingMITRE(FileMITRE, FileEXEL))
         else:
             print('Да ты что?')
