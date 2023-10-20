@@ -7,7 +7,7 @@
 - скачали страничку https://attack.mitre.org/ с матрицей ATT&CK Matrix for Enterprise
 - установили зависимости из requirements.txt
 
-Все готово к запуску, следуйте инструкциям в командной строке и Вас все получится!
+Все готово к запуску, следуйте инструкциям в командной строке и у Вас все получится!
 По умолчангию:
 - путь до распакованной KB: D:/KB for VS MP SIEM/_KB_for_VS/packages
 - путь до файла со страничкой https://attack.mitre.org/  C:/Users/UserName/Desktop/Matrix.html
